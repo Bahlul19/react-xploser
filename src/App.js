@@ -5,6 +5,7 @@ import Hello from './components/Hello';
 import Calculation from './components/Calculation';
 import Learning from './components/ClassComponent';
 import Testing from './components/Testing';
+import TestingStateComponent from './components/TestingStateComponent';
 
 function App() {
   return (
@@ -12,11 +13,12 @@ function App() {
       <header className="App-header">
         {/* <Hello/>
         <Calculation/> */}
-        <Testing name ="aa"/>
+        {/* <Testing name ="aa"/>
         <Testing name ="Nokia"/>
         <Testing name ="Samsung"/>
         <Testing name ="Huwai"/>
-        <Testing name ="Xiomi"/>
+        <Testing name ="Xiomi"/> */}
+        <TestingStateComponent/>
       </header>
     </div>
   );
