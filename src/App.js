@@ -4,14 +4,19 @@ import './App.css';
 import Hello from './components/Hello';
 import Calculation from './components/Calculation';
 import Learning from './components/ClassComponent';
+import Testing from './components/Testing';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Hello/>
-        <Calculation/>
-        <Learning/>
+        {/* <Hello/>
+        <Calculation/> */}
+        <Testing name ="aa"/>
+        <Testing name ="Nokia"/>
+        <Testing name ="Samsung"/>
+        <Testing name ="Huwai"/>
+        <Testing name ="Xiomi"/>
       </header>
     </div>
   );
