@@ -6,6 +6,7 @@ import Calculation from './components/Calculation';
 import Learning from './components/ClassComponent';
 import Testing from './components/Testing';
 import TestingStateComponent from './components/TestingStateComponent';
+import TestingUseStateHook from './components/TestingUseStateHookComponent';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <Testing name ="Samsung"/>
         <Testing name ="Huwai"/>
         <Testing name ="Xiomi"/> */}
-        <TestingStateComponent/>
+        {/* <TestingStateComponent/> */}
+        <TestingUseStateHook/>
       </header>
     </div>
   );
